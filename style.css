@@ -1,0 +1,52 @@
+html,
+body {
+    height: 100%;
+}
+
+.text_box {
+    padding: 30px;
+    width: 50%;
+    height: 100%;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#container{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+}
+
+.center_buttons{
+    margin:auto;
+    display:block;
+}
+
+body, #container, .navbar{
+    background: linear-gradient(51deg, #6ddf12, #067f3b, #00d58c, #009bd5, #0021d5, #8800d5, #f316d8, #f3164f, #f3be16, #bdf316);
+    background-size: 2000% 2000%;
+
+    -webkit-animation: mytransition 19s ease infinite;
+    -moz-animation: mytransition 19s ease infinite;
+    animation: mytransition 19s ease infinite;
+}
+
+@-webkit-keyframes mytransition {
+    0%{background-position:0% 57%}
+    50%{background-position:100% 44%}
+    100%{background-position:0% 57%}
+}
+@-moz-keyframes mytransition {
+    0%{background-position:0% 57%}
+    50%{background-position:100% 44%}
+    100%{background-position:0% 57%}
+}
+@keyframes mytransition {
+    0%{background-position:0% 57%}
+    50%{background-position:100% 44%}
+    100%{background-position:0% 57%}
+}
